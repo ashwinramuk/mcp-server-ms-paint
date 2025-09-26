@@ -1,0 +1,3 @@
+[console_scripts]
+mcp-client = ai_client:main
+mcpserver-paint = app:main

@@ -1,0 +1,27 @@
+[project]
+name = "mcpserver-paint"
+version = "0.1.0"
+description = "MCP Server for MS Paint"
+dependencies = [
+    "mcp",
+    "Pillow",
+    "pywin32",
+    "pywinauto",
+    "google-generativeai",
+    "python-dotenv",
+]
+dynamic = ["readme"]
+
+[project.scripts]
+mcpserver-paint = "app:main"
+mcp-client = "ai_client:main"
+
+[tool.setuptools]
+py-modules = ["app", "ai_client"]
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

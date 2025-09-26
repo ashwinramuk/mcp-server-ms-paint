@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: mcpserver-paint
+Version: 0.1.0
+Summary: MCP Server for MS Paint
+Description-Content-Type: text/markdown
+Requires-Dist: mcp
+Requires-Dist: Pillow
+Requires-Dist: pywin32
+Requires-Dist: pywinauto
+Requires-Dist: google-generativeai
+Requires-Dist: python-dotenv
