@@ -7,5 +7,6 @@ Requires-Dist: mcp
 Requires-Dist: Pillow
 Requires-Dist: pywin32
 Requires-Dist: pywinauto
+Requires-Dist: pyautogui
 Requires-Dist: google-generativeai
 Requires-Dist: python-dotenv

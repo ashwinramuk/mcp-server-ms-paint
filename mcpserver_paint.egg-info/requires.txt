@@ -2,5 +2,6 @@ mcp
 Pillow
 pywin32
 pywinauto
+pyautogui
 google-generativeai
 python-dotenv
